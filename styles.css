@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  background-color: #ffffff;
+  max-width: 800px;
+  font-size: 50px;
+  margin: auto;
+}
+
+body {
+  background-image: url(https://pbs.twimg.com/media/Fyl7x0SakAAXB9O.jpg:large) ;
+  background-position: top center;
+  font-family: comic sans;
+  padding: 20px;
+}
+
+p {
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  background-color: #ffffff;
+  max-width: 800px;
+  font-size: 30px;
+}
+label {
+  display: block;
+}
+
+fieldset {
+  border: none;
+  margin: 10 auto 10 auto;
+  background-color: #ffffff;
+  max-width: 800px;
+  font-size: 20px;
+}
+
+textarea {
+  width: 600px;
+  height: 20px;
+}
+
+p[id="play"]{
+  text-align: left;
+}
+
+input[type="number"] {
+  width: 50
+}
+input[type="email"] {
+  width: 200
+}
+input[type="submit"] {
+  margin: auto;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}

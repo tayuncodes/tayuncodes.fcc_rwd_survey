@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Play League of Legends with me?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Play League of Legends with me?</h1>
+    <p id="description" class="description">It'll be fun I promise</p>
+    <form id="survey-form" method="post">
+      <fieldset>
+        <label for="name" id="name-label">What is your Riot ID? <input id="name" type="text" placeholder="MENTALILLINOIS" required/></label>
+        <label for="number" id="number-label">What are the 4 digits at the end of your Riot Id? <input id="number" type="number" pattern="{4,}" min="0" max="9999" placeholder="1111"/></label>
+        <label for="email" id="email-label">What is your email (I need it for this assignment I dont actually want it) <input id="email" type="email" placeholder="ThisIsARealEmail@Email.com" required/>
+      </fieldset>
+      <fieldset>
+        <label for="region">What region are you in?
+          <select id="dropdown" name="region">
+            <option value="">(select one)</option>
+            <option value="1">NA</option>
+            <option value="2">EU</option>
+            <option value="3">KOR</option>
+            <option value="4">CH</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <p id="play" >Play nice</p>
+        Do you agree to not flame enemy or teammates?
+        <label for="no-flame"><input id="no-flame" type="radio" value="yes-tilt" name="no-flame" class="inline"/>Yes</label>
+        <label for="no-flame"><input id="no-flame" type="radio" value="no-tilt" name="no-flame" class="inline"/>No</label>
+        Do you agree to close the game when you're tilted?
+        <label for="no-tilt"><input id="no-tilt" type="radio" value="yes-tilt" name="no-tilt" class="inline"/>Yes</label>
+        <label for="no-tilt"><input id="no-tilt" type="radio" value="no-tilt" name="no-tilt" class="inline"/>No</label>
+      </fieldset>
+      <fieldset>
+        <label for="why">Why am I the best:
+          <textarea id="why" name="why" rows="3" cols="30" placeholder="Mental Illinois is the most beautiful amazing talented genius spectacular..."></textarea>
+         <label for="agree"><input id="agree" type="checkbox" value="agree" name="agree" class="inline"/>By submitting this form, I agree that MentalIllinois is the best, amazingest person in the universe</label>
+         <label for="agree"><input id="agree" type="checkbox" value="agree" name="agree" class="inline"/>By submitting this form, I agree that T1 is the best professional League of Legends team</label>
+
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+  </body>
+</html>
